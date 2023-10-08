@@ -22,7 +22,6 @@ const BasicMeta: FC<BasicMetaProps> = ({ title, description, keywords, author, u
       />
       {author ? <meta name="author" content={author} /> : null}
       <link rel="canonical" href={config.base_url + url} />
-      <script async="async" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     </Head>
   );
 };
